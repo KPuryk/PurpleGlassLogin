@@ -1,0 +1,209 @@
+.login-text{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+
+
+  
+    
+
+}
+
+.login-container{
+    background: rgba(255, 255, 255, 0.1); /* напівпрозорий білий фон */
+    backdrop-filter: blur(10px); /* ефект розмиття заднього фону */
+    -webkit-backdrop-filter: blur(10px); /* підтримка для Safari */
+   
+
+    
+   
+    border-color: rgba(255, 255, 255, 0.3);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    height: 380px;
+    width: 420px;
+    text-align: center;
+    gap: 15px;
+
+  /*display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  */
+
+    
+
+
+}
+
+/* нихуя не поняв*/
+.under-password{
+    display: flex;
+    justify-content: center; /* щоб елементи були ближче зліва */
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+    font-size: 12px;
+    gap: 10px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.password-input , .username-input{
+    
+    
+
+    border-style: solid;
+    border-radius: 32px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.1);;
+    width: 100%;
+    height: 46px;
+
+    margin-left: 45px;
+    margin-right: 45px;
+
+    font-weight: 650;
+
+    background: rgba(255, 255, 255, 0.1); /* напівпрозорий фон */
+    backdrop-filter: blur(10px); /* блюр позаду кнопки */
+
+    margin-bottom: 15px;
+
+
+    padding-left: 20px;
+    
+
+   
+}
+.under-password input[type="checkbox"] {
+    accent-color: white;
+}
+
+.forgot{
+    color: white;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+
+.remember{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+.image-user {
+    position: absolute;
+    right: 55px;   /* подгони по вкусу */
+    top: 40%;
+    transform: translateY(-50%);
+    height: 40px;
+}
+
+.password-user{
+      position: absolute;
+    right: 50px;   /* подгони по вкусу */
+    top: 45%;
+    transform: translateY(-50%);
+    height: 50px;
+}
+
+.password-input::placeholder,
+.username-input::placeholder {
+  color: white;
+}
+.username-input,
+.password-input {
+    color: white;   /* цвет вводимого текста */
+}
+.username-input:focus,
+.password-input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.password, .username{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.username {
+    position: relative;
+    display: flex;
+}
+.password {
+    position: relative;
+    display: flex;
+}
+
+
+.login-button{
+    width: 100%;
+    height: 46px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 32px;
+    background-color: white;
+    
+
+    font-size: 16px;
+    
+    margin-left: 45px;
+    margin-right: 45px;
+    font-weight: 650;
+    
+    
+    color: #333;
+    
+    
+    /*color: transparent; /*не впевнений в цьому*/
+    /*background-clip: text; /*не впевнений в цьому*/
+
+    
+
+}
+.login-button-container{
+
+    display: flex;
+    justify-content: center
+    
+}
+.part-bottom{
+     display: flex;
+    justify-content: center;
+    gap: 8px;
+
+
+    align-items: center;
+    width: 260px;
+    margin: 10px auto;
+    font-size: 12px;
+}
+.dont-have-account{
+color: white;
+font-size: 14px;
+
+}
+
+.register{
+    color: white;
+      font-weight: 700;
+    font-size: 14px;
+
+}
